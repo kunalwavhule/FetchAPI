@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Users & Posts</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js" defer></script>
+
+  <style>
+    body {
+      font-family: Arial;
+      margin: 20px;
+    }
+
+    .container {
+      display: flex;
+      gap: 40px;
+    }
+
+    .box {
+      width: 25%;
+    }
+
+    .card {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      background: #f9f9f9;
+    }
+
+    h2 {
+      border-bottom: 2px solid black;
+      padding-bottom: 5px;
+    }
+    
+    #loading {
+    font-size: 18px;
+    font-weight: bold;
+    }
+  </style>
+
+</head>
+    <body>
+
+        <h1>Users & Posts</h1>
+
+        <h3 id="loading">Loading data...</h3>
+
+        <div class="container">
+        <div class="box">
+            <h2>Users</h2>
+            <div id="users"></div>
+        </div>
+
+        <div class="box">
+            <h2>Posts</h2>
+            <div id="posts"></div>
+        </div>
+        </div>
+
+    </body>
+</html>
