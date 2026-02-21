@@ -38,4 +38,4 @@ Built to practice:
 1. Download or clone the repository
 
 ```bash
-git clone https://github.com/your-username/users-posts-project.git
+https://github.com/kunalwavhule/FetchAPI
